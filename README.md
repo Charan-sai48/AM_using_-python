@@ -28,8 +28,39 @@ Generate AM Signal: Apply the AM modulation formula to obtain the modulated sign
 Plot the Signals: Use Matplotlib to plot the message signal, carrier signal, and modulated signal.
 
 ## Program 
+```
+mport numpy as np
+import matplotlib.pyplot as plt
+
+Am = 5.6
+Ac = 11.2
+Fm = 487
+Fc = 4870
+Fs = 48700
+
+t = np.arange(0, 2/Fm, 1/Fs)
+
+m = Am * np.cos(2 * np.pi * Fm * t)
+
+c = Ac * np.cos(2 * np.pi * Fc * t)
+
+s = (Ac + m) * np.cos(2 * np.pi * Fc * t)
+
+plt.figure(figsize=(12, 8))
+
+plt.subplot(3, 1, 1)
+plt.plot(t, m)
+plt.subplot(3, 1, 2)
+plt.plot(t, c)
+plt.subplot(3, 1, 3)
+plt.plot(t, s)
+plt.tight_layout()
+plt.show()
+```
 
 ## Output
+
+<img width="1265" height="838" alt="image" src="https://github.com/user-attachments/assets/a6f27f9b-4c8b-40d2-837d-7bf39a5f39eb" />
 
 ## Tabular Column
 
