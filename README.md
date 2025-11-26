@@ -64,6 +64,9 @@ plt.show()
 
 ## Tabular Column
 
+![WhatsApp Image 2025-11-26 at 3 47 24 PM](https://github.com/user-attachments/assets/3cd42c52-e9f0-41f7-816f-af7d5639b270)
+
+
 ## Calculation
 
 ## Result
