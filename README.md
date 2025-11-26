@@ -69,4 +69,9 @@ plt.show()
 
 ## Calculation
 
+<img width="454" height="669" alt="image" src="https://github.com/user-attachments/assets/ed88cfd0-ad72-4679-aa78-9661635dfff9" />
+
+
 ## Result
+
+amplitude modulation is executed using python.
